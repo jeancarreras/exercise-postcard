@@ -1,0 +1,92 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+body {
+	background: black;
+}
+
+* {
+	box-sizing: border-box;
+	border: 0;
+	min-height: 0;
+}
+
+body {
+	background: black;
+	margin: 0;
+	min-height: 100vh;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 12px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	font-size: 34px;
+	font-weight: 500;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+}
+
+.postcard-body {
+	display: flex;
+	margin-top: 8px;
+	gap: 14px;
+}
+
+.body-left,
+.body-right {
+	width: 50%;
+}
+
+.body-left p {
+	margin: 0 0 14px;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+.body-right input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #777;
+	padding: 7px 3px;
+	margin-bottom: 12px;
+	outline: none;
+	font-size: 15px;
+	font-family: inherit;
+}
+
+.postcard-footer {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.postcard-footer button {
+	border: 1px solid #b8b8b8;
+	background: #e6e6e6;
+	padding: 6px 12px;
+	font-size: 14px;
+	cursor: pointer;
+}
